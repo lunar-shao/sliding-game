@@ -1,0 +1,91 @@
+/*
+	Par : Shao Pradel-Tessier
+	Fait le : 2019-01-24
+	Projet 1 : Jeu du taquin, feuille de style
+*/
+
+body{
+	background: linear-gradient(90deg, #ff9a9e, #fad0c4);
+}
+
+h1 {
+	font-family: Helvetica, sans serif;
+	text-align : center;
+}
+
+p {
+	font-family: Helvetica, sans serif;
+}
+
+table {
+	text-align : center;
+	border: 1px solid #E58B8E;
+	border-spacing : 0px;
+}
+
+td {
+	padding: 0px;
+}
+
+#jeu {
+	min-height : 392px;
+	text-align: center;
+}
+
+#canevas {
+	width : 480px;
+	height: 480px;
+	border: 2px solid #7F4D4F;
+	text-align: center;
+}
+
+#audio {
+	float : right;
+	text-align : right;
+}
+
+.footer {
+	text-align : left;
+}
+
+.img {
+	display: inline;
+}
+
+.contour {
+	width : 70%;
+	border-top: 5px dotted #E58B8E;
+	border-right: 5px dotted #E58B8E;
+	border-bottom : 5px dotted #FFDFCC;
+	border-left : 5px dotted #FFDFCC;
+	padding : 10px;
+	margin :auto;
+	margin-top : 40px;
+}
+
+.boutons {
+	margin: auto;
+	text-align: center;
+	padding-bottom : 15px;
+}
+
+.btn {
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	background-color: white; 
+	color: black; 
+	border: 2px solid #E58B8E;
+}
+
+.btn:hover {
+	background-color: #E58B8E;
+	color: white;
+}

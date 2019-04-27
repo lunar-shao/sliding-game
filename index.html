@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+	Par : Shao Pradel-Tessier
+	Fait le : 2019-01-24
+	Projet 1 : Jeu du taquin
+	
+-->
+<html lang="fr">
+<head>
+	<title>Taquin</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="css/styleTaquin.css">
+</head>
+<body class="contour">
+	<div class="header">
+		<h1>Jeu de taquin</h1>
+	</div>
+	<div class="boutons">
+		<p>Cliquez sur un bouton pour commencer!</p>
+		<input class="btn" type="button" value="3X3" id="trois" onclick="start(3)">
+		<input class="btn" type="button" value="4X4" id="quatre" onclick="start(4)">
+		<input class="btn" type="button" value="5X5" id="cinq" onclick="start(5)">
+	</div>
+	<div id="jeu">
+		<canvas id="canevas" width="480px" height="480px">
+			Votre navigateur ne supporte pas encore canvas.
+		</canvas>
+	</div>
+	<div class="footer">
+		<div class="img">
+			<p>Résultat final</p>
+			<img id="image" width="107" height="98">
+		</div>
+		<div id="audio">			
+			<audio id="music" controls>
+				Votre navigateur ne supporte pas l'élément <code>audio</code>
+			</audio>
+			<p>Musique : Unspoken, Kenny Comics</p>
+		</div>
+	</div>
+	<script src="js/js_Taquin.js" type="text/javascript" charset="UTF-8"></script>
+</body>
+</html>
